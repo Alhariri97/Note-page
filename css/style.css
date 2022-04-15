@@ -5,16 +5,17 @@ body {
 }
 .done {
   opacity: 0.9;
- background-color: #f7f7f7 !important;
+ background-color:  rgba(0,0,0,.03) !important;
+ 
 }
 .form {
   position: relative;
   margin-bottom: 65px;
 }
-
+.time{
+  background-color: transparent !important;
+}
 .form .add{
-  /* float: right;
-  margin-top: -120px; */
   position: absolute;
   right:10px
 }
@@ -33,15 +34,14 @@ right: 16px;
 .task .mark{
   position: absolute;
  left: 16px;
- background-color: 	hsl(255, 100%, 50%) !important;
-  }
-.mark{
-  background-color: #8064A2 !important;
+ border-color: transparent!important;
 
-  border-color:#8064A2 !important;
 }
 a{
   bottom: 10vh;
+}
+.task{
+  margin: auto !important;
 }
 .alert{
   display: none;

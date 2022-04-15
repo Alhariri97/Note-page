@@ -4,24 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Note Page</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <!--  -->
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
       <h1 class="ms-4" font-size:100px;>&#9997;</h1>
-      <span class="navbar-text me-4"> We will reach there one day :) </span>
+      <span class="navbar-text me-4">
+        Write and <strong>save</strong> your notes , you won't <s>loose</s> them
+        <em> :)</em>
+      </span>
     </nav>
     <div class="container">
       <div action="#" class="form">
-        <div class="mb-1 mt-3">
+        <div class="mb-1 mt-3 col-11 m-auto col-lg-12">
           <input type="text" class="form-control input" placeholder="Title.." />
           <textarea
             class="form-control second"
-            placeholder="Task Here..."
+            placeholder="Note Here..."
             rows="5"
             id="comment"
             name="text"
@@ -42,16 +44,15 @@
         ></button>
       </div> -->
       <!--  -->
-      <div class="tasks row"></div>
+      <div class="tasks justify-content-around row"></div>
     </div>
     <div class="card text-center">
       <div class="card-footer text-muted">
-        Please Note this note will use your machine local storage to save your
-        notes
+        Please Note: This note page will use your machine's local storage to
+        save your notes ^^
       </div>
     </div>
     <script src="./js/java.js"></script>
-    <script src="./js/bootstrap.bundle.min.js.map"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

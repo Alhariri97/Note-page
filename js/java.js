@@ -156,10 +156,10 @@ function addelelmentToBody(arrayOfTasks) {
     div.classList.add("mb-4");
     div.classList.add("text-start");
     div.classList.add("card");
-    div.classList.add("m");
-    div.classList.add("col-sm-12");
-    div.classList.add("col-md-4");
-    div.classList.add("col-lg-5");
+    div.classList.add("me-lg-5");
+    div.classList.add("col-10");
+    div.classList.add("col-md-5");
+    div.classList.add("col-lg-3");
     div.setAttribute("data-id", element.id);
     // ///chekck if it's don
     if (element.compleated) {
